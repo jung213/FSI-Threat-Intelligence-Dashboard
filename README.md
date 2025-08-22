@@ -30,21 +30,6 @@ Streamlit 기반으로 거래 데이터를 합성하고, 이상탐지 모델을 
 
 ---
 
-##  프로젝트 구조
-FSI/
-├─ app/
-│ ├─ combined_full.py # 메인 대시보드
-│ ├─ labeling_ui.py # 라벨링 UI
-│ ├─ pages/fsi_chat_bot.py # 챗봇 페이지
-│ ├─ requirements.txt # 의존성
-│ └─ data/labels.csv # 샘플 라벨 데이터
-└─ core/
-├─ feature_engineering.py # 특징 추출
-├─ detectors.py # IForest/LOF
-├─ thresholding.py # 임계치 방법
-├─ drift.py # 드리프트 감지
-└─ rules.py # 규칙 기반 가점
-
 ##  설치 및 실행
 
 ### 의존성 설치
