@@ -1,0 +1,38 @@
+# FSI Threat Intelligence Dashboard Requirements (Combined Full Version)
+# -*- coding: utf-8 -*-
+
+# Core data processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Machine Learning
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+shap>=0.41.0
+
+# Web framework & UI
+streamlit>=1.25.0
+plotly>=5.10.0
+matplotlib>=3.5.0
+
+# HTTP requests & caching
+requests>=2.28.0
+requests-cache>=1.0.0
+urllib3>=1.26.0
+
+# Environment & configuration
+python-dotenv>=0.19.0
+
+# LangChain & AI/LLM (for fsi_chat_bot.py)
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+langgraph>=0.0.40
+openai>=1.0.0
+
+# Optional: For enhanced functionality
+# ipython>=8.0.0  # For Jupyter notebook support
+# jupyter>=1.0.0  # For notebook interface
+
+# Additional dependencies for combined_full.py & fsi_chat_bot.py
+# (All core dependencies are already included above)
